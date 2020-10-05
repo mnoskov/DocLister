@@ -1,4 +1,4 @@
-<?php namespace EvolutionCMS\FormLister;
+<?php namespace EvolutionCMS\DocLister;
 
 use EvolutionCMS\ServiceProvider;
 
