@@ -1,15 +1,15 @@
-//<?php
+<?php
 /**
- * DLSitemap
+ * DLBeforeAfter
  *
- * Snippet to build XML sitemap
+ * Navigation between post and upcoming events relative to the current date.
  *
  * @category 	snippet
- * @version 	1.0.1
+ * @version 	1
  * @license 	http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
  * @internal	@properties
  * @internal	@modx_category Content
  * @internal    @installset base, sample
  */
 
-return require MODX_BASE_PATH.'assets/snippets/DocLister/snippet.DLSitemap.php';
+return require MODX_BASE_PATH.'assets/snippets/DocLister/snippet.DLBeforeAfter.php';

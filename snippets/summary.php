@@ -1,15 +1,15 @@
-//<?php
+<?php
 /**
- * DLGlossary
+ * summary
  * 
- * Filtering documents by the first character
+ * Truncates the string to the specified length
  *
  * @category 	snippet
- * @version 	0.1
+ * @version 	2.0.2
  * @license 	http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
  * @internal	@properties 
  * @internal	@modx_category Content
  * @internal    @installset base, sample
  */
 
-return require MODX_BASE_PATH.'assets/snippets/DocLister/snippet.DLGlossary.php';
+return require MODX_BASE_PATH.'assets/snippets/summary/snippet.summary.php';
