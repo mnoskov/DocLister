@@ -4,6 +4,9 @@
   "type": "EvolutionCMS-Snippet",
   "license": "GPL-2.0",
   "autoload": {
+    "psr-4": {
+      "EvolutionCMS\\DocLister\\": "src"
+    },
     "classmap": [
       "assets/snippets/DocLister/",
       "assets/lib/"
@@ -11,8 +14,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "DocLister\\Tests\\": "tests/src/",
-      "EvolutionCMS\\DocLister\\": "src"
+      "DocLister\\Tests\\": "tests/src/"
     },
     "classmap": [
       "tests/modx/"
