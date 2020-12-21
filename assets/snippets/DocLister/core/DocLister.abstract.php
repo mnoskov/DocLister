@@ -7,7 +7,8 @@
  */
 include_once(MODX_BASE_PATH . 'assets/lib/APIHelpers.class.php');
 include_once(MODX_BASE_PATH . 'assets/lib/Helpers/FS.php');
-include_once(MODX_BASE_PATH . 'assets/lib/Helpers/Config.php');
+if(!class_exists(\Helpers\Config::class))
+    include_once(MODX_BASE_PATH . 'assets/lib/Helpers/Config.php');
 require_once(dirname(dirname(__FILE__)) . "/lib/jsonHelper.class.php");
 require_once(dirname(dirname(__FILE__)) . "/lib/sqlHelper.class.php");
 require_once(dirname(dirname(__FILE__)) . "/lib/DLTemplate.class.php");
